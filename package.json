@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "EVNX",
+  "homepage": "https://github.com/kreeshianAlvir/propellr-exam.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
