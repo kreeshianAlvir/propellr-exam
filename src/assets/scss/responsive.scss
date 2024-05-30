@@ -1,0 +1,188 @@
+:root {
+  --navigation-page-display: flex;
+  --header-account-section: flex;
+  --mobile-hamburger-display: none;
+
+  //   shopping cart style
+  --order-details-flex-direction: row;
+  --btn-cart-checkout-width: auto;
+
+  //   hero section
+  --hero-section-height: 998px;
+  --display-half-oval-right: block;
+  --display-half-oval-right-width: 1050px;
+  --hero-background-image-top: -156px;
+  --hero-background-image-height: unset;
+  --hero-header-direction: row;
+  --hero-header-title-size: 5rem;
+  --hero-header-subtitle-width: 55%;
+  --hero-header-gap: 10%;
+  --hero-details-details-direction: row;
+  --hero-details-details-height: 60px;
+  --hero-details-details-border-right: 1px solid #333;
+  --hero-details-details-border-bottom: none;
+  --hero-details-margin: 0px 137px;
+  --hero-details-details-price-margin: 0px 10px;
+  --hero-details-details-color-justify: space-around;
+  --hero-content-gap: 0px;
+
+  //   carousel
+  --carousel-title-size: 2rem;
+  --carousel-width: 40%;
+  --carousel-item-title-width: 80%;
+  --carousel-item-img-position: unset;
+  --carousel-item-img-right: unset;
+  --carousel-item-img-top: unset;
+
+  //   blogs best sellers
+  --blogs-best-sellers-direction: row;
+  --blogs-best-sellers-margin: auto 25%;
+  --best-sellers-background-width: 50%;
+  --best-sellers-background-scale: 1;
+  --best-sellers-overflow: unset;
+  --best-sellers-width: 50%;
+  --best-selling-helmet-visibility: visible;
+  --best-selling-helmet-top: -45px;
+  --best-seller-description-align: flex-end;
+  --best-seller-description-padding: 0 50px 0 0px;
+  --best-seller-description-title-align: right;
+  --best-seller-description-divider-width: 70px;
+  --blogs-width: 35%;
+  --blogs-padding: 0px;
+  --blogs-item-description: 75%;
+}
+
+@media screen and (max-width: 1920px) {
+  :root {
+    --display-half-oval-right-width: 700px;
+
+    --carousel-item-title-width: 90%;
+
+    --blogs-best-sellers-margin: auto 22%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 1768px) {
+  :root {
+    --hero-section-height: calc(100vh - 75px);
+    --display-half-oval-right-width: 623px;
+
+    --carousel-width: 65%;
+    --carousel-item-title-width: 60%;
+
+    --blogs-best-sellers-margin: auto 19%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  :root {
+    --hero-section-height: calc(100vh - 75px);
+    --display-half-oval-right-width: 590px;
+
+    --carousel-width: 65%;
+    --carousel-item-title-width: 60%;
+
+    --blogs-best-sellers-margin: auto 16%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    --hero-section-height: calc(100vh - 75px);
+    --hero-background-image-height: 120%;
+    --display-half-oval-right-width: 520px;
+
+    --carousel-width: 65%;
+    --carousel-item-title-width: 80%;
+
+    --blogs-best-sellers-margin: auto 16%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --hero-section-height: calc(100vh - 75px);
+    --hero-background-image-height: 125%;
+    --display-half-oval-right-width: 470px;
+
+    --carousel-width: 65%;
+    --carousel-item-title-width: 80%;
+
+    --blogs-best-sellers-margin: auto 11%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  :root {
+    --hero-section-height: calc(100vh - 75px);
+    --hero-background-image-height: 125%;
+    --display-half-oval-right-width: 470px;
+
+    --carousel-width: 65%;
+    --carousel-item-title-width: 80%;
+
+    --blogs-best-sellers-margin: auto 11%;
+    --best-selling-helmet-top: -3px;
+    --blogs-item-description: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --navigation-page-display: none;
+    --header-account-section: none;
+    --mobile-hamburger-display: flex;
+
+    --order-details-flex-direction: column;
+    --btn-cart-checkout-width: 100%;
+
+    --hero-section-height: calc(100vh - 75px);
+    --display-half-oval-right: none;
+    --hero-background-image-top: 0px;
+    --hero-background-image-height: 120%;
+    --hero-header-direction: column;
+    --hero-header-title-size: 2rem;
+    --hero-header-subtitle-width: 100%;
+    --hero-header-gap: 50px;
+    --hero-details-details-direction: column;
+    --hero-details-details-height: auto;
+    --hero-details-details-border-right: none;
+    --hero-details-details-border-bottom: 1px solid #333;
+    --hero-details-margin: 0px;
+    --hero-details-details-price-margin: 0px;
+    --hero-details-details-color-justify: space-between;
+    --hero-content-gap: 50px;
+
+    --carousel-title-size: 1.5rem;
+    --carousel-width: 100%;
+    --carousel-item-title-width: 60%;
+    --carousel-item-img-position: absolute;
+    --carousel-item-img-right: 10px;
+    --carousel-item-img-top: 21px;
+
+    --blogs-best-sellers-direction: column-reverse;
+    --blogs-best-sellers-margin: auto 0%;
+    --best-sellers-background-width: 100%;
+    --best-sellers-background-scale: 1.55;
+    --best-sellers-overflow: hidden;
+    --best-sellers-width: 100%;
+    --best-selling-helmet-visibility: hidden;
+    --best-seller-description-align: center;
+    --best-seller-description-padding: 0px;
+    --best-seller-description-title-align: center;
+    --best-seller-description-divider-width: 90%;
+    --blogs-width: 100%;
+    --blogs-padding: 0px 10px;
+    --blogs-item-description: 100%;
+  }
+}
